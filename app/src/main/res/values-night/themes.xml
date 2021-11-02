@@ -13,4 +13,18 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- custom style -->
+    <style name="margin_control_view7">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:background">@color/blue</item>
+    </style>
+
+    <!-- custom style -->
+    <style name="margin_control_view8" parent="margin_control_view7">
+        <item name="android:layout_height">50dp</item>
+    </style>
 </resources>
